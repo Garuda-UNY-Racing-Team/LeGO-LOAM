@@ -61,7 +61,7 @@ extern const bool useCloudRing = false; // if true, ang_res_y and ang_bottom are
 
 // VLP-16
 extern const int N_SCAN = 16;
-extern const int Horizon_SCAN = 1800;
+extern const int Horizon_SCAN = 1875;
 extern const float ang_res_x = 0.2;
 extern const float ang_res_y = 2.0;
 extern const float ang_bottom = 15.0+0.1;
@@ -106,7 +106,7 @@ extern const double mappingProcessInterval = 0.3;
 
 extern const float scanPeriod = 0.1;
 extern const int systemDelay = 0;
-extern const int imuQueLength = 200;
+extern const int imuQueLength = 50;
 
 extern const float sensorMinimumRange = 1.0;
 extern const float sensorMountAngle = 0.0;
@@ -117,12 +117,12 @@ extern const float segmentAlphaX = ang_res_x / 180.0 * M_PI;
 extern const float segmentAlphaY = ang_res_y / 180.0 * M_PI;
 
 
-extern const int edgeFeatureNum = 2;
-extern const int surfFeatureNum = 4;
+extern const int edgeFeatureNum = 6;
+extern const int surfFeatureNum = 12;
 extern const int sectionsTotal = 6;
 extern const float edgeThreshold = 0.1;
 extern const float surfThreshold = 0.1;
-extern const float nearestFeatureSearchSqDist = 25;
+extern const float nearestFeatureSearchSqDist = 27;
 
 
 // Mapping Params
